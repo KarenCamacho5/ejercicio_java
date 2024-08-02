@@ -13,8 +13,7 @@ import java.util.Scanner;
 public class Ejercicio_Java {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
+        Scanner scanner = new Scanner(System.in,"ISO-8859-1"); /*leer tildes con "ISO-8859-1" o cambiar de clase a BufferedReader*/
         System.out.println("Ingrese el nombre del cliente: ");
         String nombre =scanner.nextLine();
         System.out.print("Ingrese el tipo de cliente (1, 2, 3, 4): ");
